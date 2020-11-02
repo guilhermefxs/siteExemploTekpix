@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+header{
+    background-color: #32334b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    overflow: hidden;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    position: fixed;
+}
+
+body{
+    background-color: #32334b;
+}
+
+.conteudo{
+    padding-left: 2rem;
+}
+
+.conteudo h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.conteudo p,h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.conteudo li{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.nav_links{
+    list-style-type: none;
+}
+
+.nav_links li{
+    display: inline-flex;
+    padding: 0px 1rem;
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+#home{
+    height: 1080px;
+}
+
+.textHome{
+    float: left;
+    margin-top: 130px;
+}
+
+.textHome h1,p{
+    color: white;
+}
+
+#home img{
+    width: 25rem;
+    float: right;
+    margin-top: 7rem;
+}
+
+#sobre{
+    height: 1080px;
+}
+
+#sobre p{
+    margin-top: 90px;
+    float: left;
+    font-size: 2rem;
+    max-width: 30rem;
+    padding-top: 5rem;
+}
+
+#sobre img{
+    height: 900px;
+    margin-top: 120px;
+    float: right;
+    width: 40%;
+    height: 40%;
+}
+
+#especificacoes{
+    height: 1080px;
+}
+
+#especificacoes ul{
+    padding-top: 10rem;
+    float: right;
+    margin-right: 100px;
+}
+
+#especificacoes li{
+    font-size: 2rem;
+    list-style: none;
+    color: white;
+}
+
+#especificacoes img{
+    padding-top: 15rem;
+}
+
+#ondeComprar{
+    height: 1080px;
+}
+
+#ondeComprar h2{
+    padding-top: 10rem;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+#ondeComprar p{
+    padding-top: 5rem;
+    font-size: 50px;
+    text-align: center;
+}
